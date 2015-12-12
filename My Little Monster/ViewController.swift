@@ -11,6 +11,8 @@ import UIKit
 class ViewController: UIViewController {
     
     @IBOutlet weak var imgMonster: UIImageView!
+    @IBOutlet weak var imgFood: DragImage!
+    @IBOutlet weak var imgHeart: DragImage!
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -28,6 +30,10 @@ class ViewController: UIViewController {
         imgMonster.animationDuration = 0.8
         imgMonster.animationRepeatCount = 0
         imgMonster.startAnimating()
+    }
+    
+    override func touchesBegan(touches: Set<UITouch>, withEvent event: UIEvent?) {
+        print("Screen was touched.")
     }
 
     override func didReceiveMemoryWarning() {

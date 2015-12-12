@@ -14,6 +14,7 @@
 		FA28E7A21C1C537B0068E948 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA28E7A01C1C537B0068E948 /* LaunchScreen.storyboard */; };
 		FA28E7AD1C1C537B0068E948 /* My_Little_MonsterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA28E7AC1C1C537B0068E948 /* My_Little_MonsterTests.swift */; };
 		FA28E7B81C1C537B0068E948 /* My_Little_MonsterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA28E7B71C1C537B0068E948 /* My_Little_MonsterUITests.swift */; };
+		FA28E7C61C1C64230068E948 /* DragImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA28E7C51C1C64230068E948 /* DragImage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		FA28E7B31C1C537B0068E948 /* My Little MonsterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "My Little MonsterUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA28E7B71C1C537B0068E948 /* My_Little_MonsterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = My_Little_MonsterUITests.swift; sourceTree = "<group>"; };
 		FA28E7B91C1C537B0068E948 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA28E7C51C1C64230068E948 /* DragImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DragImage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			children = (
 				FA28E7971C1C537B0068E948 /* AppDelegate.swift */,
 				FA28E7991C1C537B0068E948 /* ViewController.swift */,
+				FA28E7C51C1C64230068E948 /* DragImage.swift */,
 				FA28E79B1C1C537B0068E948 /* Main.storyboard */,
 				FA28E79E1C1C537B0068E948 /* Assets.xcassets */,
 				FA28E7A01C1C537B0068E948 /* LaunchScreen.storyboard */,
@@ -260,6 +263,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FA28E79A1C1C537B0068E948 /* ViewController.swift in Sources */,
+				FA28E7C61C1C64230068E948 /* DragImage.swift in Sources */,
 				FA28E7981C1C537B0068E948 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
